@@ -1,0 +1,185 @@
+:root {
+  --uk-green: #36b864;
+  --uk-dark: #111d15;
+  --uk-muted: #666666;
+  --uk-soft: #f5f4f4;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: var(--uk-dark);
+  background: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.brand-text {
+  font-family: "Montserrat", sans-serif;
+  color: var(--uk-dark);
+}
+
+.logo-dot {
+  width: 0.85rem;
+  height: 0.85rem;
+  background: var(--uk-green);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.navbar .nav-link {
+  color: #4d4d4d;
+  font-weight: 500;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--uk-green);
+}
+
+.btn-cta {
+  background: var(--uk-green);
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.7rem 1.3rem;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  background: #2da457;
+  color: #ffffff;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #ffffff 0%, #fbfbfb 100%);
+}
+
+.eyebrow {
+  color: var(--uk-green);
+  font-size: 0.85rem;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+}
+
+.hero-panel {
+  background: var(--uk-soft);
+  border-radius: 1rem;
+  border: 1px solid #e8e8e8;
+}
+
+.feature-item {
+  padding: 0.75rem 0.85rem;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.6rem;
+}
+
+.feature-item + .feature-item {
+  margin-top: 0.7rem;
+}
+
+.section-label {
+  color: var(--uk-green);
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.service-card {
+  border: 1px solid #e9e9e9;
+  border-radius: 0.9rem;
+  padding: 1.35rem;
+  background: #ffffff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+}
+
+.service-tag {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: #e8f7ee;
+  color: #1e8f4a;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.pricing-section {
+  background: var(--uk-green);
+}
+
+.price-card {
+  background: #ffffff;
+  border-radius: 0.9rem;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.price-card.featured {
+  border: 2px solid var(--uk-dark);
+}
+
+.plan-pill {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.price span {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.plan-list li {
+  padding: 0.45rem 0;
+  border-bottom: 1px dashed #e2e2e2;
+  color: #4d4d4d;
+}
+
+.plan-list li:last-child {
+  border-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card {
+  border: 1px solid #e4e4e4;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  padding: 1.2rem;
+}
+
+.contact-box {
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  background: #ffffff;
+}
+
+.reveal-item {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.reveal-item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
